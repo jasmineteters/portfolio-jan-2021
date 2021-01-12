@@ -44,4 +44,4 @@ Link to the GitHub live page:
 
 ## Gif of App:
 
-![](/assets/portfolio.gif)
+![]()
