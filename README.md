@@ -13,7 +13,7 @@
 
 ## Description:
 
-This is v2 pof my portfolio, I am using TailwindCSS for design. This is a mobile first portfolio.
+This is v2 of my portfolio, I am using TailwindCSS for design. This is a mobile first portfolio.
 
 ## App Usage:
 
