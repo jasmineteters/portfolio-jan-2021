@@ -9,48 +9,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    
   </head>
 
   <body>
-    <header class="bg-oxfordBlue text-mintCream rounded-b-sm p-4 shadow-2xl">
+    <header class="bg-oxfordBlue text-mintCream p-4 shadow-2xl">
       <nav class="flex justify-between">
-        <div class="flex flex-col align-middle mt-20 laptop:ml-14">
-          <svg
-            id="burger"
-            class="w-10"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-          <svg
-            id="x"
-            class="w-10 hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="{2}"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-
-          <div id="menu" class="hidden flex flex-col my-auto">
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
-                <a class="p-1" href="home.html">Home</a>
+        <div class="">
+          <a href="index.html"
+            ><img
+              src="/portfolio-jan-2021/public/img/JT Web Dev Logo.png"
+              class="h-52 object-contain object-right transform origin-bottom-left hover:-rotate-12 transition duration-300"
+          /></a>
+        </div>
+        <div class="flex">
+          <div class="flex flex-col justify-start my-auto">
+            <svg
+              id="burger"
+              class="w-10 transform hover:-rotate-180 transition duration-300"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+          <div id="menu" class="flex flex-col text-right hidden">
+            <div class="text-2xl font-thin">
+              <p class="flex">
+                <a class="p-1" href="index.html">Home</a>
                 <svg
                   class="w-5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +59,8 @@
                 </svg>
               </p>
             </div>
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
+            <div class="text-2xl font-thin">
+              <p class="flex">
                 <a class="p-1" href="portfolio.html">Portfolio</a>
                 <svg
                   class="w-5"
@@ -86,8 +78,8 @@
                 </svg>
               </p>
             </div>
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
+            <div class="text-2xl font-thin">
+              <p class="flex">
                 <a class="p-1" href="contact.html">Contact</a>
                 <svg
                   class="w-5"
@@ -106,20 +98,30 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="">
-          <img
-            src="/portfolio-jan-2021/public/img/JT Web Dev Logo.png"
-            class="h-52 object-contain object-right"
-            href="index.html"
-          />
+          <div class="flex flex-col justify-start my-auto">
+            <svg
+              id="x"
+              class="w-10 hidden flex transform hover:-rotate-90 transition duration-300"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="{2}"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
         </div>
       </nav>
     </header>
 
     <section class="">
       <div
-        class="flex flex-row text-white font-extralight text-5xl p-2 pl-16 pb-10 m-0 top-0 bg-oxfordBlue"
+        class="flex flex-row text-white font-thin text-5xl p-2 pl-16 pb-10 m-0 bg-oxfordBlue font-bioRhyme"
       >
         About Me
       </div>
@@ -131,27 +133,25 @@
         >
           <div class="">
             <img
-              class="w-full laptop:w-1/2 float-right rounded-sm  pb-5 laptop:transform laptop:translate-x-48 shadow-inner"
+              class="w-full laptop:w-1/2 float-right rounded-sm pb-5 laptop:transform laptop:translate-x-48 shadow-inner"
               src="/portfolio-jan-2021/public/img/fall-leaves.jpg"
               alt="my throwing fall leaves"
             />
 
-            <p class="">
+            <p class="font-cabin text-lg">
               My name is Jasmine Teters, I just turned 30, which was not
               exciting. I'm from Portland, Oregon. I moved to Utah to play for
               the Utah Falconz, women's semi pro women's tackle football team. I
               play offensive line as well as serve on the board of directors and
               lead the Recruiting Committee.
-            </p>
-            <br />
-            <p class="">
+              <br />
+              <br />
               I enjoy riding bikes, whether it's a road bike or a mountain bike,
               I like being on it! My favorite place to ride is up Emigration
               Canyon, which is about 7.6 miles to the top, with 1200+ ft
               elevation gain! It's a challenge, but I love it every single time!
-            </p>
-            <br />
-            <p class="">
+              <br />
+              <br />
               I got into coding because my sales career has not been super
               stable during Covid, and I've always had a knack for systems and
               puzzles, so I figured that this would be a good outlet for that
@@ -166,24 +166,24 @@
     >
       <div class="flex flex-row bg-oxfordBlue justify-center">
         <a
-          class="fa fa-github m-2 text-white"
+          class="fa fa-github m-2 text-white animate-bounce"
           href="https://github.com/jasmineteters"
         ></a>
         <a
-          class="fa fa-linkedin m-2 text-white"
+          class="fa fa-linkedin m-2 text-white animate-bounce"
           href="https://linkedin.com/in/jasmine-teters"
         ></a>
         <a
-          class="fa fa-envelope m-2 text-white"
+          class="fa fa-envelope m-2 text-white animate-bounce"
           href="mailto:jasmineteters2020@gmail.com"
         ></a>
         <a
-          class="fa fa-phone m-2 text-white"
+          class="fa fa-phone m-2 text-white animate-bounce"
           href="tel:5034607641"
         ></a>
       </div>
       <div class="flex text-white justify-center">
-        <p>&copy; Copyright JT Web Dev</p>
+        <p class="font-cabin">&copy; Copyright JT Web Dev</p>
       </div>
     </footer>
   </body>

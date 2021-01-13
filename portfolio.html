@@ -12,44 +12,37 @@
   </head>
 
   <body>
-    <header class="bg-oxfordBlue text-mintCream rounded-b-sm p-4 shadow-2xl">
+    <header class="bg-oxfordBlue text-mintCream p-4 shadow-2xl">
       <nav class="flex justify-between">
-        <div class="flex flex-col align-middle mt-20 laptop:ml-14">
-          <svg
-            id="burger"
-            class="w-10"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-          <svg
-            id="x"
-            class="w-10 hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="{2}"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-
-          <div id="menu" class="hidden flex flex-col my-auto">
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
-                <a class="p-1" href="home.html">Home</a>
+        <div class="">
+          <a href="index.html"
+            ><img
+              src="/portfolio-jan-2021/public/img/JT Web Dev Logo.png"
+              class="h-52 object-contain object-right transform origin-bottom-left hover:-rotate-12 transition duration-300"
+          /></a>
+        </div>
+        <div class="flex">
+          <div class="flex flex-col justify-start my-auto">
+            <svg
+              id="burger"
+              class="w-10 transform hover:-rotate-180 transition duration-300"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+          <div id="menu" class="flex flex-col text-right hidden">
+            <div class="text-2xl font-thin">
+              <p class="flex">
+                <a class="p-1" href="./index.html">Home</a>
                 <svg
                   class="w-5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +59,8 @@
                 </svg>
               </p>
             </div>
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
+            <div class="text-2xl font-thin">
+              <p class="flex">
                 <a class="p-1" href="portfolio.html">Portfolio</a>
                 <svg
                   class="w-5"
@@ -85,8 +78,8 @@
                 </svg>
               </p>
             </div>
-            <div class="text-lg text-2xl">
-              <p class="flex hover:text-red-900">
+            <div class="text-2xl font-thin">
+              <p class="flex">
                 <a class="p-1" href="contact.html">Contact</a>
                 <svg
                   class="w-5"
@@ -105,18 +98,28 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="">
-          <img
-            src="/portfolio-jan-2021/public/img/JT Web Dev Logo.png"
-            class="h-52 object-contain object-right"
-            href="index.html"
-          />
+          <div class="flex flex-col justify-start my-auto">
+            <svg
+              id="x"
+              class="w-10 hidden flex transform hover:-rotate-90 transition duration-300"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="{2}"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
         </div>
       </nav>
     </header>
     <div
-      class="flex flex-row text-white font-thin text-5xl p-2 pl-16 pb-10 m-0 top-0 bg-oxfordBlue"
+      class="flex flex-row text-white font-thin text-5xl p-2 pl-16 pb-10 m-0 bg-oxfordBlue font-bioRhyme"
     >
       My Portfolio
     </div>
@@ -124,7 +127,7 @@
       class="flex flex-col laptop:flex-row justify-center p-5 laptop:flex-wrap w-screen"
     >
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 laptop:mx-0 desktop:mx-10 h-1/2 my-auto transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://charactersheet-generator.herokuapp.com/"
           ><img
@@ -134,15 +137,19 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">
+          <h5
+            class="text-3xl mb-2 border-b font-light font-bioRhyme text-center"
+          >
             Character Sheet Generator
           </h5>
-          <p class="">
-            Group Project to develop a web app to source mountain bike trails,
-            paired with a local brewery for a post-ride refreshment. Use your
-            current location or provide your zip code. Click on the trail or
-            brewery for additional information. Functionality made with
-            JavaScript using API calls, HTML and Bootstrap for design.
+          <p class="font-cabin italic text-lg">
+            Developed a mobile-first, user friendly application to build
+            character sheets for Table Top Role Player Games (TTRPG), filling a
+            void that is prevalent within the industry.
+            <br /><br />
+            Responsibilities for this project include designing and creating the
+            entire front end, including 105 user inputted fields, with unique
+            id’s for the back-end to save to the database
           </p>
           <div class="flex flex-row justify-evenly py-5">
             <a
@@ -161,7 +168,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://jasmineteters.github.io/Bikes-andBrews/"
           ><img
@@ -171,8 +178,12 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">Bikes and Brews</h5>
-          <p class="">
+          <h5
+            class="text-3xl text-center mb-2 border-b font-light font-bioRhyme"
+          >
+            Bikes and Brews
+          </h5>
+          <p class="font-cabin italic text-lg">
             Group Project to develop a web app to source mountain bike trails,
             paired with a local brewery for a post-ride refreshment. Use your
             current location or provide your zip code. Click on the trail or
@@ -196,7 +207,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://jasmineteters.github.io/example-gym/"
           ><img
@@ -206,8 +217,12 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-3 border-b">Example Gym</h5>
-          <p class="">
+          <h5
+            class="text-3xl font-light font-bioRhyme text-center mb-3 border-b"
+          >
+            Example Gym
+          </h5>
+          <p class="font-cabin italic text-lg">
             My friend is opening a gym and I wanted to make an example website
             of how that could look, I utilized a youtube tutorial for certain
             aspects. Made with HTML, CSS and extensive Bootstrap use.
@@ -229,7 +244,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 h-1/2 my-auto transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://jasmineteters.github.io/5DayWeatherApp/"
           ><img
@@ -239,11 +254,18 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">
+          <h5
+            class="text-3xl font-light font-bioRhyme text-center mb-2 border-b"
+          >
             5 Day Weather Forecast
           </h5>
-          <p class="">
+          <p class="font-cabin italic text-lg">
             Web app for getting the 5 day forecast for a chosen location.
+            <br /><br />
+            Responsibilities for this project include designing and building the
+            entire front and back end.
+            <br /><br />
+            Made with JavaScript using API calls, HTML and Bootstrap for design.
           </p>
           <div class="flex flex-row justify-evenly py-5">
             <a
@@ -262,7 +284,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://jasmineteters.github.io/calendarHomework/"
           ><img
@@ -272,8 +294,12 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">Work Day Scheduler</h5>
-          <p class="">
+          <h5
+            class="text-3xl font-light font-bioRhyme text-center mb-2 border-b"
+          >
+            Work Day Scheduler
+          </h5>
+          <p class="font-cabin italic text-lg">
             This is a web app that allows the user to plan a single day. If the
             time block is red, it means that time is in the past, if it is light
             blue, it's the current hour, and darker blue is the future. You can
@@ -297,7 +323,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 h-1/2 my-auto transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <a href="https://jasmineteters.github.io/passwordGenerator/"
           ><img
@@ -307,8 +333,12 @@
         /></a>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">Password Generator</h5>
-          <p class="">
+          <h5
+            class="text-3xl font-light font-bioRhyme text-center mb-2 border-b"
+          >
+            Password Generator
+          </h5>
+          <p class="font-cabin italic text-lg">
             This is an app that allows the user to generate a random password of
             their preferred length between 8-124 characters long. They choose if
             they want to include special characters, UPPERCASE letters, and/or
@@ -332,7 +362,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col tablet:w-4/5 laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10"
+        class="flex flex-col tablet:w-4/5 tablet:mx-auto laptop:w-1/2 desktop:w-1/5 m-5 p-5 shadow-2xl rounded-2xl mx-3 desktop:mx-10 transition duration-500 ease-in-out hover:bg-silverSand hover:bg-opacity-50"
       >
         <iframe
           class="h-4/5 mb-3"
@@ -340,10 +370,12 @@
         ></iframe>
 
         <div class="">
-          <h5 class="text-3xl font-thin mb-2 border-b">
+          <h5
+            class="text-3xl font-light font-bioRhyme text-center mb-2 border-b"
+          >
             Full-Stack Web Development Resume
           </h5>
-          <p class="">
+          <p class="font-cabin italic text-lg">
             This is a live document that is evolving as I go through my bootcamp
           </p>
           <div class="flex flex-inline justify-evenly py-5">
@@ -353,7 +385,7 @@
               href="https://docs.google.com/document/d/1mxjDriIeBTmLB4eJZPrwMz9C9SwNsKzxsQ60IeuJzmM/edit?usp=sharing"
               >Resume
               <svg
-              class="ml-1"
+                class="ml-1"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -426,26 +458,27 @@
     >
       <div class="flex flex-row bg-oxfordBlue justify-center">
         <a
-          class="fa fa-github m-2 text-white"
+          class="fa fa-github m-2 text-white animate-bounce"
           href="https://github.com/jasmineteters"
         ></a>
         <a
-          class="fa fa-linkedin m-2 text-white"
+          class="fa fa-linkedin m-2 text-white animate-bounce"
           href="https://linkedin.com/in/jasmine-teters"
         ></a>
         <a
-          class="fa fa-envelope m-2 text-white"
+          class="fa fa-envelope m-2 text-white animate-bounce"
           href="mailto:jasmineteters2020@gmail.com"
         ></a>
         <a
-          class="fa fa-phone m-2 text-white"
+          class="fa fa-phone m-2 text-white animate-bounce"
           href="tel:5034607641"
         ></a>
       </div>
       <div class="flex text-white justify-center">
-        <p>&copy; Copyright JT Web Dev</p>
+        <p class="font-cabin">&copy; Copyright JT Web Dev</p>
       </div>
     </footer>
   </body>
+
   <script src="/portfolio-jan-2021/public/js/menu.js"></script>
 </html>

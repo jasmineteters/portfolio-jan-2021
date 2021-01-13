@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        dnd: ['Kaushan\\ Script', 'cursive'],
+        bioRhyme: ['BioRhyme', 'serif'],
+        cabin: ['Cabin', 'sans-serif'],
       },
     },
     screens: {
@@ -21,11 +22,12 @@ module.exports = {
     },
     colors: {
       oxfordBlue: '#101e42',
-      silverSand: '#b8c8cf',
+      silverSand: '#A9CAD8',
       mintCream: '#F5FBF5',
       hookersGreen: '#4e6e58',
       terraCotta: '#e07a5f',
-      white: '#ffffff'
+      white: '#ffffff',
+      gray200: '#E5E7EB'
     },
   },
   variants: {
