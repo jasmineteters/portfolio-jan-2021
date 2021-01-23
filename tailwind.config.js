@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ['./**/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -27,7 +27,7 @@ module.exports = {
       hookersGreen: '#4e6e58',
       terraCotta: '#e07a5f',
       white: '#ffffff',
-      gray200: '#E5E7EB'
+      gray200: '#E5E7EB',
     },
   },
   variants: {
