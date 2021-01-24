@@ -532,11 +532,6 @@ video {
   background-color: rgba(16, 30, 66, var(--tw-bg-opacity));
 }
 
-.bg-mintCream{
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 251, 245, var(--tw-bg-opacity));
-}
-
 .hover\:bg-silverSand:hover{
   --tw-bg-opacity: 1;
   background-color: rgba(169, 202, 216, var(--tw-bg-opacity));
@@ -794,19 +789,9 @@ video {
      object-fit: contain;
 }
 
-.object-center{
-  -o-object-position: center;
-     object-position: center;
-}
-
 .object-right{
   -o-object-position: right;
      object-position: right;
-}
-
-.focus\:outline-none:focus{
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .p-1{
@@ -1065,14 +1050,14 @@ video {
           animation: bounce 1s infinite;
 }
 
-@media (min-width: 325px){
+@media (min-width: 320px){
   .phone\:container{
     width: 100%;
   }
 
-  @media (min-width: 325px){
+  @media (min-width: 320px){
     .phone\:container{
-      max-width: 325px;
+      max-width: 320px;
     }
   }
 
