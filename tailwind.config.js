@@ -7,6 +7,15 @@ module.exports = {
         bioRhyme: ['BioRhyme', 'serif'],
         cabin: ['Cabin', 'sans-serif'],
       },
+      colors: {
+        oxfordBlue: '#101e42',
+        silverSand: '#A9CAD8',
+        mintCream: '#F5FBF5',
+        hookersGreen: '#4e6e58',
+        terraCotta: '#e07a5f',
+        white: '#ffffff',
+        gray200: '#E5E7EB',
+      },
     },
     screens: {
       phone: '325px',
@@ -19,15 +28,6 @@ module.exports = {
 
       desktop: '1280px',
       // => @media (min-width: 1280px) { ... }
-    },
-    colors: {
-      oxfordBlue: '#101e42',
-      silverSand: '#A9CAD8',
-      mintCream: '#F5FBF5',
-      hookersGreen: '#4e6e58',
-      terraCotta: '#e07a5f',
-      white: '#ffffff',
-      gray200: '#E5E7EB',
     },
   },
   variants: {
