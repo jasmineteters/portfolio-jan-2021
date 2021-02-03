@@ -45,4 +45,4 @@ Link to the GitHub live page: https://jasmineteters.github.io/portfolio-jan-2021
 
 ## Gif of App:
 
-![](/public/img/jpeg.png)
+![](/public/img/jpeg.jpg)
