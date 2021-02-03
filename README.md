@@ -40,7 +40,8 @@ jasmineteters2020@gmail.com
 ## Live Deployment:
 
 Link to the GitHub Repo: https://github.com/jasmineteters/teters.portfolio
-Link to the GitHub live page: 
+
+Link to the GitHub live page: https://jasmineteters.github.io/portfolio-jan-2021/
 
 ## Gif of App:
 
